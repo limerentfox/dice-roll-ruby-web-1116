@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  numbers =* (1..6)
+  numbers.shuffle.sample
+  #rand(1..6)
 end
